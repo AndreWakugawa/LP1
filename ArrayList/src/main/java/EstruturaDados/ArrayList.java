@@ -40,10 +40,19 @@ public class ArrayList {
 //        Ex82.ex82Vet();
 //        System.out.println("Ex82 com List:");
 //        Ex82.ex82List();
-
-        System.out.println("Ex83 com vetores:");
-        Ex83.ex83Vet();
-        System.out.println("Ex83 com List:");
-        Ex83.ex83List();
+//
+//        System.out.println("Ex83 com vetores:");
+//        Ex83.ex83Vet();
+//        System.out.println("Ex83 com List:");
+//        Ex83.ex83List();
+//        
+//        System.out.println("Ex84 com vetores:");
+//        Ex84.ex84Vet();
+//        System.out.println("Ex84 com List:");
+//        Ex84.ex84List();
+        
+        System.out.println("Ex85 com vetores:");
+        Ex85.ex85Vet();
+        System.out.println("Ex85 com List:");
     }
 }
