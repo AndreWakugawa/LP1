@@ -50,9 +50,40 @@ public class ArrayList {
 //        Ex84.ex84Vet();
 //        System.out.println("Ex84 com List:");
 //        Ex84.ex84List();
-        
-        System.out.println("Ex85 com vetores:");
-        Ex85.ex85Vet();
-        System.out.println("Ex85 com List:");
+//        
+//        System.out.println("Ex85 com vetores:");
+//        Ex85.ex85Vet();
+//        System.out.println("Ex85 com List:");
+//        Ex85.ex85List();
+//
+//        System.out.println("Ex86 com vetores:");
+//        Ex86.ex86Vet();
+//        System.out.println("Ex86 com List:");
+//        Ex86.ex86List();
+//
+//        System.out.println("Ex87 com vetores:");
+//        Ex87.ex87Vet();
+//        System.out.println("Ex87 com List:");
+//        Ex87.ex87List();
+//        
+//        System.out.println("Ex88 com vetores:");
+//        Ex88.ex88Vet();
+//        System.out.println("Ex88 com List");
+//        Ex88.ex88List();
+//
+//        System.out.println("Ex89 com vetores:");
+//        Ex89.ex89Vet();
+//        System.out.println("Ex89 com List:");
+//        Ex89.ex89List();
+//        
+//        System.out.println("Ex90 com vetores:");
+//        Ex90.ex90Vet();
+//        System.out.println("Ex90 com List:");
+//        Ex90.ex90List();
+//        
+//        System.out.println("Ex91 com vetores:");
+//        Ex91.ex91Vet();
+//        System.out.println("Ex91 com List:");
+//        Nao feito
     }
 }
