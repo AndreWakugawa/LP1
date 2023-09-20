@@ -16,21 +16,27 @@ public class Ex79 {
         double notas[] = new double[20];
         Scanner sc = new Scanner(System.in);
         
-        int acimaMedia = 0;
         
         for (int i = 0; i < notas.length; i++) {
             System.out.println(String.format("Digite a %d nota:", i+1));
             double notasInput = sc.nextDouble();
             notas[i] = notasInput; 
-            if (notasInput >= 6) {
-                acimaMedia++;
-            }
         }
+        
         double soma = 0;
         for (double nota : notas) {
             soma += nota;
         }
+        
         double media = soma / notas.length;
+        int acimaMedia = 0;
+        
+        for (double nota : notas) {
+            if (nota > media) {
+                acimaMedia++;
+            }
+        }
+        
         System.out.println("A média da turma foi de: " + media +" e " + acimaMedia +" alunos ficaram acima da média");
     }
     
@@ -38,21 +44,28 @@ public class Ex79 {
         ArrayList<Double> notas = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         
-        int acimaMedia = 0;
+
         
         for (int i = 0; i < 20; i++) {
             System.out.println(String.format("Digite a %d nota:", i+1));
             double notasInput = sc.nextDouble();
             notas.add(notasInput);
-            if (notasInput >= 6) {
-                acimaMedia++;
-            }
         }
+        
         double soma = 0;
         for (double nota : notas) {
             soma += nota;
         }
+        
         double media = soma / notas.size();
+        int acimaMedia = 0;
+        
+        for (double nota : notas) {
+            if (nota > media) {
+                acimaMedia++;
+            }
+        }
+        
         System.out.println("A média da turma foi de: " + media +" e " + acimaMedia +" alunos ficaram acima da média");
     }
 }
