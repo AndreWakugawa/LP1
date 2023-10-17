@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
         System.out.println("Ex1: Troca do valor de variaveis A e B");
@@ -41,8 +38,6 @@ public class Main {
         b = aux;
         System.out.println("Variavel A = " +a);
         System.out.println("Variavel B = " +b);
-
-
     }
 
 
@@ -54,8 +49,6 @@ public class Main {
         System.out.println("Insira o numero:");
         int numero = scanner.nextInt();
         System.out.println("Antecessor = :" +(numero -1));
-
-
     }
 
 
@@ -86,7 +79,6 @@ public class Main {
         int dia = scanner.nextInt();
 
         System.out.println("Voce tem " +((ano *365) +(mes *30)+ dia));
-
     }
 
 
@@ -100,7 +92,6 @@ public class Main {
         System.out.println("Insira o reajuste em porcentagem:");
         double reajuste = scanner.nextDouble();
         System.out.println("O seu salario reajustado é de: " +((salario) *(1 + reajuste /100)));
-
     }
 
 
@@ -156,7 +147,6 @@ public class Main {
         else {
             System.out.println("O numero é negativo");
         }
-
     }
 
 
